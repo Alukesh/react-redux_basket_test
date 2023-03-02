@@ -1,0 +1,30 @@
+
+*{
+  font-family: 'SF Pro Display';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+@import url('//db.onlinewebfonts.com/c/862b8318309f226da232067148abc00c?family=PragmaticaCondCTT');
+@import url('//db.onlinewebfonts.com/c/70c38766a71f8f7f0a477605da15fcd3?family=SF+Pro+Display');//light
+@import url('//db.onlinewebfonts.com/c/3cff9206b4c8d578245ef1aaeeaf9e84?family=SF+Pro+Display');//normal
+@import url('//db.onlinewebfonts.com/c/64a2cfb57c4a5df1013e4f2e5bf3eff3?family=SF+Pro+Display');//medium
+.container{
+  width: 100%;
+  max-width: 1318px;
+  margin: 0 auto;
+  padding: 15px;
+}
+button{
+  cursor: pointer;
+}
+
+@import './scss/enhancers.scss';
+@import './scss/header.scss';
+@import './scss/footer.scss';
+@import './scss/basket.scss';
+@import './scss/emptyCart.scss';
+@import './scss/fileInput.scss';
+@import './scss/media.scss';

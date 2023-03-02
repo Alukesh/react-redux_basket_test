@@ -1,0 +1,42 @@
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+        &__box {
+            width: 572px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            overflow: hidden;
+        }
+
+        &__head {
+            padding: 11px 0 18px;
+            text-align: center;
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            color: #222222;
+            background: #F5F6FA;
+            border-radius: 0px 0px 10px 10px;
+            // transform: matrix(1, 0, 0, -1, 0, 0);
+        }
+        &__body{
+            padding: 26px 50px 23px;
+        }
+        &__info{
+            display: flex;
+            &-left{
+                width: 50%;
+            }
+            &-right{
+                width: 50%;
+            }
+        }
+
+
+
+}

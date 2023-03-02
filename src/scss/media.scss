@@ -1,0 +1,165 @@
+@media (max-width: 769px) {
+
+    .header__nav {
+        flex-direction: column;
+        gap: 20px;
+        position: fixed;
+        width: 40vw;
+        min-width: 400px;
+        height: 100vh;
+        z-index: 2;
+        background-color: #f3f3f3;
+        left: 0;
+        top: 0;
+        padding: 80px;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: all .3s;
+
+        &.active {
+            transform: none;
+        }
+    }
+
+    .burger-btn {
+        display: block !important;
+        &.active{
+            &::before{
+                transform: rotate(45deg);
+                top: 10px;
+                transition: all .8s;
+                width: 20px;
+            }
+            &::after{
+                transform: rotate(-45deg);
+                top: 10px; 
+                transition: all .8s;
+                width: 20px;
+            }
+            span{
+                display: none;
+                transition: all .8s;
+                width: 20px;
+            }
+        }
+    }
+
+    .blur {
+        transform: translateX(-100%);
+        width: 100vw;
+        height: 100vh;
+        backdrop-filter: blur(2px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+
+        &.active {
+            transform: none;
+        }
+    }
+
+    .header__top-inner {
+        // align-items: start;
+        justify-content: space-between;
+    }
+
+    .basket {
+        &__main {
+            flex-direction: column;
+        }
+        &__info{
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+
+@media (max-width: 680px) {
+    .footer__info{
+        flex-wrap: wrap;
+        row-gap: 21px;
+        &-col{
+            width: fit-content;
+        }
+    }
+    .header__bot{
+        flex-wrap: wrap;
+        row-gap: 11px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .header__bot{
+        flex-wrap: wrap;
+        row-gap: 11px;
+        &-catalog{
+            margin: 0 0 0 auto;
+        }
+    }
+
+    .basket__table, .basket__card{
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+    .basket__booking{
+        flex-direction: column;
+        &-side{
+            width: 100%;
+        }
+    }
+    .basket__table-row {
+        column-gap: 4px;
+        div:nth-child(2){
+            text-align: center;
+            width: 120px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        div:nth-child(5).price{
+            font-size: 14px;
+            width: 80px;
+        }
+        
+    }
+    
+}
+
+
+@media (max-width: 376px) {
+    header{
+        .header__logo{
+            display: none;
+            &-black{
+                display: none;
+            }
+        }
+        .header__email{
+            margin: 0;
+        }
+    }
+    
+    .header__bot{
+        flex-wrap: wrap-reverse;
+        &-catalog{
+            margin: 0;
+        }
+        &-btns{
+            margin-left: 10px;
+        }
+    }
+    .basket__title{
+        font-size: 30px;
+    }
+    .basket__info{
+        max-width: 100%;
+    }
+    .footer__info-col:nth-child(1) {
+        display: none;
+    }
+}

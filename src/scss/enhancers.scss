@@ -1,0 +1,21 @@
+$mainCt:#E11E26;
+$hoverBtn: rgba(216, 92, 73, 0.582);
+
+@keyframes slideaway {
+    from { display: block; }
+    to { transform: translateY(40px); opacity: 0; }
+}
+
+@keyframes plopp{
+  // 0%
+  from{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  // 100%
+  to{
+    transform: translate(0, -10px);
+    opacity: 0;
+  }
+}
+    
