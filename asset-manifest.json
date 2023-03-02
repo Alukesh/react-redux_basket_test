@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-redux_basket_test/static/css/main.791df775.css",
+    "main.css": "/react-redux_basket_test/static/css/main.c0c40641.css",
     "main.js": "/react-redux_basket_test/static/js/main.58652ac2.js",
     "static/media/logo.png": "/react-redux_basket_test/static/media/logo.4d4a5c1bbdfe0235213a.png",
     "index.html": "/react-redux_basket_test/index.html",
-    "main.791df775.css.map": "/react-redux_basket_test/static/css/main.791df775.css.map",
+    "main.c0c40641.css.map": "/react-redux_basket_test/static/css/main.c0c40641.css.map",
     "main.58652ac2.js.map": "/react-redux_basket_test/static/js/main.58652ac2.js.map"
   },
   "entrypoints": [
-    "static/css/main.791df775.css",
+    "static/css/main.c0c40641.css",
     "static/js/main.58652ac2.js"
   ]
 }
